@@ -1,0 +1,131 @@
+html, button, input, select, textarea {
+	color: #222;
+}
+body {
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+html, body {
+	height: 100%;
+	font-size: 16px;
+}
+
+
+.smoothScroll{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	font
+	color: #000;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #AAA;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: rgba(255, 255, 255, 0.91);
+  background-color: #091423;
+  
+  
+}
+.navbar-default {
+	background-color: #072542;
+	opacity: 0.9;
+	padding: 5px 0;
+	box-shadow: 0px 0px 30px black;
+	font-weight: 500;
+}
+.navbar-default .navbar-brand {
+	font-weight: 700;
+	font-size: 26px;
+	color: transparent;
+
+}
+.navbar-brand .fa {
+	color: #38b5c9;
+}
+.navbar-toggle {
+	border-color: transparent;
+	border: 0px solid transparent;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #4ABCC5;	
+}
+.modal-dialog{
+	overflow-y: initial;
+	max-height:85%;
+	margin-top: 100px;
+	margin-bottom:50px;
+}
+
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 200;
+	color: #555;
+}
+h2 {
+	font-size: 34px;
+	color: #666;
+	font-weight: 500;
+}
+h3 {
+	font-size: 24px;
+	font-weight: 500;
+}
+/* Paragraph & Typographic */
+p {
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+
+strong {
+	font-weight: 700;
+}
+em {
+	font-weight: 300;
+}
+pre {
+	background: #ebebeb;
+	border: none;
+	font-family: "Monaco";
+	font-size: 16px;
+	color: #666;
+	padding: 20px;
+	line-height: 28px;
+}
+small {
+	font-size: 12px;
+}
+a {
+	color: #134347;
+	word-wrap: break-word;
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+a:hover, a:focus {
+	color: #c0392b;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:before, a:after {
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+.social{
+	margin-left: 80px;
+}
+
